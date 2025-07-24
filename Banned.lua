@@ -7,7 +7,6 @@ return function(player)
         ["Treezz_w"] = true
     }
     if blacklistedUsers[player.Name] then
-        player:Kick("You are blacklisted, Lmao.")
         return true
     end
     return false
